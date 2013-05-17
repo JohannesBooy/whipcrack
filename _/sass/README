@@ -2,20 +2,24 @@
 
 * **/_foundation/:** Contains partials filled with the foundational basics needed to run a healthy site.
 
-	* **normalize.sass:** These are the modern-day reset rules.
-	(Learn more about them here: https://github.com/necolas/normalize.css)
-	These rules 'normalize' inconsistencies across most web browsers,
-	giving us a solid foundation to build upon. These rules define nothing
-	particular to this site's design; that is reserved for...
+	* **base.sass:** This partial contains all of the *general* selectors --
+	typical HTML elements; little-to-no custom classes -- that are needed to
+	suit the design of this particular site, along with a couple of other
+	things like helper 	classes and the .chromeframe declarations.
 
-	* **base.sass:** In here are all of the *general* selectors -- typical HTML
-	elements; little-to-no custom classes -- that are needed to suit the design
-	of this particular site, along with a couple of other things like helper
-	classes and the .chromeframe declarations.
-
-	* **grid.sass:** Behind door #3 we have all of the grid-layout selectors,
+	* **grid.sass:** This partial contains all of the grid-layout selectors,
 	along with a few modifiers. This borrows HEAVILY from CSS Wizardry's
-	wonderful bucket of magic: 	https://github.com/csswizardry/csswizardry-grids
+	wonderful bucket of magic: https://github.com/csswizardry/csswizardry-grids
+
+	* **helpers.sass:** This partial contains helper classes, which provide
+	helpful, global rules that aren't particular to any one module, page, etc.
+	For example, clearfix, hidden/invisible, etc.
+
+	* **normalize.sass:** These are the modern-day reset rules. (Learn more
+	about them here: https://github.com/necolas/normalize.css) These rules
+	'normalize' inconsistencies across most web browsers, giving us a solid
+	foundation to build upon. These rules define nothing particular to this
+	site's design; that is reserved for base.sass.
 
 	* **variables.sass:** Since we're big fans of not repeating ourselves not
 	repeating ourselves, it's mighty convenient to set up variables to be
@@ -24,16 +28,15 @@
 * **/_mixin/:** Contains partials for the mixins that are utilized throughout the other Sass files.
 
 	* **image-replace.sass:** This creates the "ir" mixin, making it simple to
-	do image-replacement in both standard and high resolution environments,
-	and it even has a bit of Compass magic built-in to help you define dimensions
+	do image-replacement in both standard and high resolution environments, and
+	it even has a bit of Compass magic built-in to help you define dimensions
 	and paths automatically. See the file for more detailed information.
 
 	* **media-queries.sass:** This creates a handful of media query mixins to
-	query things like viewport width, pixel density, and (maybe?) more. See the
-	file for more detailed information.
+	query things like viewport width, pixel density, and (maybe?) more. See
+	the file for more detailed information.
 
-* **/_module/:** Contains partials that represent a single, reusable, module that
-can be utilized one or more times throughout the site. Think of them as sub-
+* **/_module/:** Contains partials that represent a single, reusable, module * that can be utilized one or more times throughout the site. Think of them as sub-
 sections of a web page, like the global header, an Events module, etc.
 
 	* **todo:** list module partials here...
