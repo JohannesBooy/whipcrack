@@ -11,19 +11,24 @@
 // 		+ir("logo.png", "logo@2x.png")
 // ============================================================
 
+
 @mixin ir($image, $image2x:"")
-	background: transparent image-url($image) top center no-repeat
+	background: transparent image-url($image) left top no-repeat
 	border: 0
-	direction: ltr
-	display: block
+	display: inline-block
 	height: image-height($image)
 	overflow: hidden
-	text-align: left
-	text-indent: image-width($image)
+	*text-indent: -999px
 	width: image-width($image)
+
+	&:before
+		content: ""
+		display: block
+		height: 150%
+		width: 0
 
 	@if $image2x != ""
 		+mq-2x
-			background: image-url($image2x) top center no-repeat
+			background-image: image-url($image2x)
 			-webkit-background-size: 100%
 			background-size: 100%

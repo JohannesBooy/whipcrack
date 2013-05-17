@@ -1,113 +1,221 @@
-// ============================================================
-// The Basics
-// ============================================================
+// ==========================================================================
+// Base styles for this site (above and beyond what normalize.sass defines).
+// ==========================================================================
+
 
 *
 	-webkit-box-sizing: border-box
 	-moz-box-sizing: border-box
 	box-sizing: border-box
 
+
 html,
 button,
 input,
 select,
 textarea
-	color: $baseFontColor
+	color: $base-font-color
+
 
 body
-	font-size: $baseFontSize
-	font-family: $sansStack
-	line-height: $baseLineHeight
-	min-width: 250px
+	font-size: $base-font-size
+	line-height: $base-line-height
 
-.inner
-	margin: 0 auto
-	max-width: 1000px
 
-// Remove text-shadow in selection highlight: h5bp.com/i
-// These selection declarations have to be separate.
-// Customize the background color to match your design.
-::-moz-selection
-	background: $selectionBgr
-	color: $selectionType
-	text-shadow: none
-
-::selection
-	background: $selectionBgr
-	color: $selectionType
-	text-shadow: none
-
-// A better looking default horizontal rule
 hr
 	display: block
 	height: 1px
 	border: 0
-	border-top: 1px solid #ccc
+	border-top: 1px solid $gray
 	margin: 1em 0
 	padding: 0
 
-img
-	vertical-align: middleimg // Remove the gap between images and the bottom of their containers: h5bp.com/i/440
 
-// Remove default fieldset styles.
+img
+	vertical-align: middle
+
+
+p
+	// Add site-specific declaration(s).
+
+
+// Forms.
+
 fieldset
 	border: 0
 	margin: 0
 	padding: 0
 
-// Allow only vertical resizing of textareas.
+
 textarea
 	resize: vertical
 
-p
-	color: $gray
-	line-height: 1.6
-	font-size: 1.06em
-	font-weight: 400
-	margin-top: 0
+
+// List(s).
 
 ol,
 ul
-	color: $gray
-	padding-left: 1.4em
+	padding-left: 20px
 
 	ol,
 	ul
-		margin: .5em 0 .5em
+		margin: .5em 0
+
 
 li
 	margin-bottom: .5em
+
+
+// Blockquotes.
 
 blockquote
 	margin-left: 0
 
 	p
-		color: $black
 		font-style: italic
 
+
+// Code.
+
 pre
-	font-family: $monoStack
-	font-size: 0.81em
+	font-family: $mono-stack
+	font-size: 0.875em // 14px
 	overflow: scroll
 
 	code
 		display: block
-		background: $grayDark
-		color: $white
-		padding: 1em
-		min-width: 500px
+		padding: 1em 16px
+
 
 code
-	color: $gray
+	// Add site-specific declaration(s).
 
-figcaption
+
+// Links.
+
+a
+	color: $link-color
+
+	&:hover,
+	&:focus
+		color: $link-color-hover
+
+	&:visited
+		color: $link-color
+
+
+.btn
+	+border-radius(6px)
+	+single-transition(background, 0.2s, ease-in-out, 0)
+	background-color: $blue
+	color: $white
+	display: inline-block
+	font-size: 0.875em // 14px
+	letter-spacing: .1em
+	line-height: 1.2
+	padding: .4em 1.5em .6em
+	text-decoration: none
 	text-transform: uppercase
-	font-size: 0.75em
-	font-weight: 700
 
-// Chromeframe (developers.google.com/chrome/chrome-frame)
+	&:visited
+		background-color: $blue
+		color: $white
+
+	&:hover,
+	&:focus
+		background: $gray-dark
+		color: $white
+
+
+// Headings.
+
+h1, h2, h3, h4, h5, h6
+	// Add site-specific declaration(s).
+
+h1
+	font-size: 2em // 32px
+	margin: 1em 0 .1em
+
+h2
+	font-size: 1.625em // 26px
+	margin: 1em 0 .1em
+
+h3
+	font-size: 0.9375em // 15px
+	margin: 1.75em 0 .2em
+
+h4
+	font-size: 0.8125em // 13px
+	margin: 1.75em 0 .2em
+
+h5
+	font-size: 0.8125em // 13px
+	margin: 1.75em 0 .4em
+
+h6
+	font-size: 0.8125em // 13px
+	margin: 1.75em 0 .4em
+
+
+// Selection(s). These selection rule-sets have to be separate.
+
+::-moz-selection
+	background: $selection-bgr
+	color: $selection-type
+	text-shadow: none
+
+::selection
+	background: $selection-bgr
+	color: $selection-type
+	text-shadow: none
+
+
+// ==========================================================================
+// Helpers.
+// ==========================================================================
+
+
+// Hide from both screenreaders and browsers.
+
+.hidden
+	display: none !important
+	visibility: hidden
+
+
+// Hide only visually, but have it available for screenreaders.
+
+.invisible
+	border: 0
+	clip: rect(0 0 0 0)
+	height: 1px
+	margin: -1px
+	overflow: hidden
+	padding: 0
+	position: absolute
+	width: 1px
+
+
+// Clearfix.
+
+.clearfix
+	&:before,
+	&:after
+		content: " "
+		display: table
+
+	&:after
+		clear: both
+
+	*zoom: 1
+
+
+// ==========================================================================
+// Chrome Frame Prompt.
+// ==========================================================================
+
+
 .chromeframe
+	margin: 0.2em 0
 	background: #ccc
 	color: #000
-	margin: .2em 0
-	padding: .2em 0
+	padding: 0.2em 0
