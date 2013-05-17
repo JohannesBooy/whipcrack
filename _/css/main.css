@@ -445,34 +445,7 @@ h6 {
   color: #222222;
   text-shadow: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003180}}
-.hidden {
-  display: none !important;
-  visibility: hidden; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003187}}
-.invisible {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003200}}
-.clearfix, .gw {
-  *zoom: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003201}}
-  .clearfix:before, .gw:before, .clearfix:after, .gw:after {
-    content: " ";
-    display: table; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003206}}
-  .clearfix:after, .gw:after {
-    clear: both; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003181}}
 .chromeframe {
   margin: 0.2em 0;
   background: #cccccc;
@@ -698,6 +671,33 @@ li.g-rev {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003265}}
   .xl-four-fifths {
     width: 80%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/helpers\.sass}line{font-family:\000038}}
+.hidden {
+  display: none !important;
+  visibility: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/helpers\.sass}line{font-family:\0000315}}
+.invisible {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/helpers\.sass}line{font-family:\0000328}}
+.clearfix, .gw {
+  *zoom: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/helpers\.sass}line{font-family:\0000329}}
+  .clearfix:before, .gw:before, .clearfix:after, .gw:after {
+    content: " ";
+    display: table; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/helpers\.sass}line{font-family:\0000334}}
+  .clearfix:after, .gw:after {
+    clear: both; }
+
 @media print {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_print\.sass}line{font-family:\000032}}
   * {
