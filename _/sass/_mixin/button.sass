@@ -1,0 +1,44 @@
+// ============================================================
+// The button mixin has numerous parameters, each with
+// sensible defaults in place in case you opt to not pass any
+// of your own custom values. Here's a list of them:
+//
+// Parameter		Meaning							Default
+// ------------------------------------------------------------
+// $bg-color		background color				$blue
+// $color			text color						$white
+// $hf-bg-color		hover & focus background color	$gray-dark
+// $hf-color		hover & focus text color		$white
+// $font-size		font-size						0.875em
+// $border-radius	border-radius					8px
+// $speed			transition speed				0.1s
+// ============================================================
+// Example usage, keeping the default values:
+// .log-in a
+// 		+btn
+
+// Example usage, adjusting some of the default values:
+// .log-in a
+// 		+btn($bg-color:#f90, $hf-bg-color:#c90, $border-radius:15px)
+// ============================================================
+
+@mixin btn($bg-color:$blue, $color:$white, $hf-bg-color:$gray-dark, $hf-color:$white, $font-size:0.875em, $border-radius:8px, $speed:0.1s)
+	+border-radius($border-radius)
+	+single-transition(all, $speed, ease-in-out, 0)
+	background-color: $bg-color
+	color: $color
+	display: inline-block
+	font-size: $font-size
+	line-height: 1.2
+	padding: .6em 1.5em
+	text-decoration: none
+	text-transform: uppercase
+
+	&:visited
+		background-color: $bg-color
+		color: $color
+
+	&:hover,
+	&:focus
+		background: $hf-bg-color
+		color: $hf-color

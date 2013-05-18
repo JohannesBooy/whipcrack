@@ -373,79 +373,49 @@ a {
   a:visited {
     color: #049cdb; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003107}}
-.btn {
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
-  border-radius: 6px;
-  -webkit-transition: background 0.2s ease-in-out;
-  -webkit-transition-delay: 0;
-  -moz-transition: background 0.2s ease-in-out 0;
-  -o-transition: background 0.2s ease-in-out 0;
-  transition: background 0.2s ease-in-out 0;
-  background-color: #049cdb;
-  color: white;
-  display: inline-block;
-  font-size: 0.875em;
-  letter-spacing: 0.1em;
-  line-height: 1.2;
-  padding: 0.4em 1.5em 0.6em;
-  text-decoration: none;
-  text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003120}}
-  .btn:visited {
-    background-color: #049cdb;
-    color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003124}}
-  .btn:hover, .btn:focus {
-    background: #404040;
-    color: white; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003112}}
 h1 {
   font-size: 2em;
   margin: 1em 0 0.1em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003116}}
 h2 {
   font-size: 1.625em;
   margin: 1em 0 0.1em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003120}}
 h3 {
   font-size: 0.9375em;
   margin: 1.75em 0 0.2em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003147}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003124}}
 h4 {
   font-size: 0.8125em;
   margin: 1.75em 0 0.2em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003128}}
 h5 {
   font-size: 0.8125em;
   margin: 1.75em 0 0.4em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003155}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003132}}
 h6 {
   font-size: 0.8125em;
   margin: 1.75em 0 0.4em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003139}}
 ::-moz-selection {
   background: #b3d4fc;
   color: #222222;
   text-shadow: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003144}}
 ::selection {
   background: #b3d4fc;
   color: #222222;
   text-shadow: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003181}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003155}}
 .chromeframe {
   margin: 0.2em 0;
   background: #cccccc;
