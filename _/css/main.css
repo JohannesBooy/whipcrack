@@ -422,223 +422,229 @@ h6 {
   color: black;
   padding: 0.2em 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000331}}
 ul.gw,
 ol.gw {
   list-style: none;
   padding-left: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000339}}
+.c {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 62.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000348}}
 .g {
   float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000352}}
 .g-rev {
   float: right; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000356}}
 li.g,
 li.g-rev {
   margin-bottom: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000366}}
 .one-whole {
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000370}}
 .one-half {
   width: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000374}}
 .one-third {
   width: 33.333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000378}}
 .two-thirds {
   width: 66.666%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000382}}
 .one-quarter {
   width: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000386}}
 .three-quarters {
   width: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000390}}
 .one-fifth {
   width: 20%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000394}}
 .two-fifths {
   width: 40%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000398}}
 .three-fifths {
   width: 60%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003102}}
 .four-fifths {
   width: 80%; }
 
 @media only screen and (min-width: 25.0625em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003114}}
   .s-one-whole {
     width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003118}}
   .s-one-half {
     width: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003122}}
   .s-one-third {
     width: 33.333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003126}}
   .s-two-thirds {
     width: 66.666%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003130}}
   .s-one-quarter {
     width: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003134}}
   .s-three-quarters {
     width: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003138}}
   .s-one-fifth {
     width: 20%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003142}}
   .s-two-fifths {
     width: 40%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003146}}
   .s-three-fifths {
     width: 60%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003150}}
   .s-four-fifths {
     width: 80%; } }
 @media only screen and (min-width: 46.9375em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003133}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003162}}
   .m-one-whole {
     width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003166}}
   .m-one-half {
     width: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003170}}
   .m-one-third {
     width: 33.333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003145}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003174}}
   .m-two-thirds {
     width: 66.666%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003178}}
   .m-one-quarter {
     width: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003182}}
   .m-three-quarters {
     width: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003186}}
   .m-one-fifth {
     width: 20%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003190}}
   .m-two-fifths {
     width: 40%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003194}}
   .m-three-fifths {
     width: 60%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003198}}
   .m-four-fifths {
     width: 80%; } }
 @media only screen and (min-width: 56.3125em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003181}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003210}}
   .l-one-whole {
     width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003214}}
   .l-one-half {
     width: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003218}}
   .l-one-third {
     width: 33.333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003193}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003222}}
   .l-two-thirds {
     width: 66.666%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003226}}
   .l-one-quarter {
     width: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003201}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003230}}
   .l-three-quarters {
     width: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003234}}
   .l-one-fifth {
     width: 20%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003238}}
   .l-two-fifths {
     width: 40%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003242}}
   .l-three-fifths {
     width: 60%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003246}}
   .l-four-fifths {
     width: 80%; } }
 @media only screen and (min-width: 75.0625em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003229}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003258}}
   .xl-one-whole {
     width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003233}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003262}}
   .xl-one-half {
     width: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003237}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003266}}
   .xl-one-third {
     width: 33.333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003241}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003270}}
   .xl-two-thirds {
     width: 66.666%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003245}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003274}}
   .xl-one-quarter {
     width: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003249}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003278}}
   .xl-three-quarters {
     width: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003253}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003282}}
   .xl-one-fifth {
     width: 20%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003257}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003286}}
   .xl-two-fifths {
     width: 40%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003261}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003290}}
   .xl-three-fifths {
     width: 60%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003265}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003294}}
   .xl-four-fifths {
     width: 80%; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/helpers\.sass}line{font-family:\000038}}
@@ -658,14 +664,14 @@ li.g-rev {
   width: 1px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/helpers\.sass}line{font-family:\0000328}}
-.clearfix, .gw {
+.clearfix, .c {
   *zoom: 1; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/helpers\.sass}line{font-family:\0000329}}
-  .clearfix:before, .gw:before, .clearfix:after, .gw:after {
+  .clearfix:before, .c:before, .clearfix:after, .c:after {
     content: " ";
     display: table; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/helpers\.sass}line{font-family:\0000334}}
-  .clearfix:after, .gw:after {
+  .clearfix:after, .c:after {
     clear: both; }
 
 @media print {
