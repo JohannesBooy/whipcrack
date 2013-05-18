@@ -4,16 +4,15 @@
 
 	* **base.sass:** This partial contains all of the *general* selectors --
 	typical HTML elements; little-to-no custom classes -- that are needed to
-	suit the design of this particular site, along with a couple of other
-	things like helper 	classes and the .chromeframe declarations.
+	suit the design of this particular site.
 
 	* **grid.sass:** This partial contains all of the grid-layout selectors,
 	along with a few modifiers. This borrows HEAVILY from CSS Wizardry's
 	wonderful bucket of magic: https://github.com/csswizardry/csswizardry-grids
 
-	* **helpers.sass:** This partial contains helper classes, which provide
+	* **helpers.sass:** This partial contains helper classes which provide
 	helpful, global rules that aren't particular to any one module, page, etc.
-	For example, clearfix, hidden/invisible, etc.
+	For example, clearfix, hidden/invisible, etc. Quite useful for @extends!
 
 	* **normalize.sass:** These are the modern-day reset rules. (Learn more
 	about them here: https://github.com/necolas/normalize.css) These rules
@@ -26,6 +25,11 @@
 	utilized throughout the other Sass files. …and this is where that happens.
 
 * **/_mixin/:** Contains partials for the mixins that are utilized throughout the other Sass files.
+
+	* **button.sass:** This creates the "btn" mixin, allowing you to turn
+	anchors (and other select elements) into buttons. It has a fair amount
+	of adjustable parameters along with sensible default values, if needed.
+	See the file for more detailed information.
 
 	* **image-replace.sass:** This creates the "ir" mixin, making it simple to
 	do image-replacement in both standard and high resolution environments, and
