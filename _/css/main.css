@@ -353,7 +353,7 @@ li {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\0000374}}
 blockquote {
-  margin-left: 0; }
+  margin-left: 32px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/base\.sass}line{font-family:\0000377}}
   blockquote p {
     font-style: italic; }
