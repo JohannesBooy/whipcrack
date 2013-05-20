@@ -187,39 +187,40 @@ ul {
 nav ul,
 nav ol {
   list-style: none;
-  list-style-image: none; }
+  list-style-image: none;
+  padding-left: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003272}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003273}}
 img {
   border: 0;
   -ms-interpolation-mode: bicubic; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003279}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003280}}
 svg:not(:root) {
   overflow: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003290}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003291}}
 figure {
   margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003301}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003302}}
 form {
   margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003307}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003308}}
 fieldset {
   border: 1px solid silver;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003318}}
 legend {
   border: 0;
   padding: 0;
   white-space: normal;
   *margin-left: -7px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003329}}
 button,
 input,
 select,
@@ -229,17 +230,17 @@ textarea {
   vertical-align: baseline;
   *vertical-align: middle; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003341}}
 button,
 input {
   line-height: normal; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003351}}
 button,
 select {
   text-transform: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003362}}
 button,
 html input[type="button"],
 input[type="reset"],
@@ -248,12 +249,12 @@ input[type="submit"] {
   cursor: pointer;
   *overflow: visible; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003373}}
 button[disabled],
 html input[disabled] {
   cursor: default; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003383}}
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -261,30 +262,30 @@ input[type="radio"] {
   *height: 13px;
   *width: 13px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003395}}
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   box-sizing: content-box; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003403}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003404}}
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003410}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003411}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003419}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003420}}
 textarea {
   overflow: auto;
   vertical-align: top; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003431}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/marcamos\/Sites\/whipcrack\/code\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003432}}
 table {
   border-collapse: collapse;
   border-spacing: 0; }
