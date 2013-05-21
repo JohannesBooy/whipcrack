@@ -2,11 +2,11 @@
 
 Whipcrack is a [Sass](http://sass-lang.com)-y front-end project starter infused with [Compass](http://compass-style.org) that builds upon a mixture of a few key components:
 
-* The wonderful [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate)
+* The wonderful [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate) project
 * Harry Roberts' (csswizardy) [great grid system](https://github.com/csswizardry/csswizardry-grids)
-* Our own techniques, honed from years of experience building complex websites
+* Our own techniques, styles, and preferences that are built upon years of experience creating complex websites for our clients and ourselves
 
-Whipcrack follows an atomic approach of splitting elements into many different .sass files and grouping them into logical folders. This technique is meant to make upkeep way easier and collaboration via [Git](http://gitscm.org) a breeze.
+Whipcrack follows an atomic approach of splitting elements into many different .sass files and grouping them into logical folders. This technique is meant to make upkeep much easier and collaboration via [Git](http://gitscm.org) a breeze.
 
 The core tenets of Whipcrack:
 
@@ -18,83 +18,76 @@ The core tenets of Whipcrack:
 
 ## Let's take a tour:
 
-* **/_/:** The underscore directory is the library of resources and assets relied upon by the rest of the website; images, stylesheets, JavaScript, Sass files, etc.
+* **/_/:** The underscore directory is the library of resources relied upon by the rest of the project; images, stylesheets, JavaScript, Sass files, etc.
 
 	* **/css/:** Keep the compiled stylesheet(s) here.
 
-		* **main.css:** This is the one stylesheet used by the HTML document(s), and it's complied by Sass (see the **/_/sass/** information below).
+		* **main.css:** This is the one and only stylesheet used by the HTML file(s) at this time, and it's complied by Sass (see the **/_/sass/** details below for more information).
 
-	* **/img/:** Keep your project's design images here.
+	* **/img/:** Keep the project's design images here. *Note:* Images that are uploaded by an end-user via a CMS should *not* be kept here; instead, use another root-level directory such as /assets/.
 
-	* **/js/:** A fine place to store JavaScript files.
+	* **/js/:** Keep the JavaScript files here.
 
-		* **/vendor/:** 3rd party JavaScript libraries live here.
+		* **/vendor/:** Keep 3rd party JavaScript libraries here.
 
-			* **jquery-1.9.1.min.js:** Minified version of the jQuery library.
+			* **jquery-1.9.1.min.js:** A minified version of the jQuery library.
 
-			* **modernizr-2.6.2.min.js:** Minified version of the Modernizr library.
+			* **modernizr-2.6.2.min.js:** A minified version of the Modernizr library.
 
-		* **main.js:** Write your project-specific JavaScript here.
+		* **main.js:** This is where you write your project-specific JavaScript.
 
-		* **plugins:** 3rd party plugins/scripts.
+		* **plugins:** Keep 3rd party plugins/scripts here.
 
-	* **/sass/:** Where you'll write all of your styles, in the Sass syntax.
+	* **/sass/:** This is where the Sass/css magic happens; all of the style rules that compile to the above mentioned /_/css/main.css file exist in this directory.
 
-		* **/_foundation/:** Contains partials filled with the foundational basics needed to run a healthy site.
+		* **/_foundation/:** Contains partials filled with the foundational basics needed to support a healthy project.
 
-			* **base.sass:** This partial contains all of the *general* selectors -- typical HTML elements; little-to-no custom classes -- that are needed to suit the design of this particular site.
+			* **base.sass:** Contains all of the *general* selectors -- typical HTML elements, little-to-no custom classes -- that are needed to suit the design of this particular project.
 
-			* **grid.sass:** This partial contains all of the grid-layout selectors, along with a few modifiers. This borrows HEAVILY from CSS Wizardry's wonderful bucket of magic: https://github.com/csswizardry/csswizardry-grids
+			* **grid.sass:** Contains all of the grid-layout selectors, along with a few modifiers. This borrows HEAVILY from the [csswizardry grids system](https://github.com/csswizardry/csswizardry-grids).
 
-			* **helpers.sass:** This partial contains helper classes which provide helpful, global rules that aren't particular to any one module, page, etc. For example, clearfix, hidden/invisible, etc. Quite useful for @extends!
+			* **helpers.sass:** Contains helper classes which provide helpful, global rules that aren't particular to any one module, page, etc. For example, clearfix, hidden/invisible, etc. It's a great place to store selectors you'd often want to [`@extend`](http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#extend).
 
-			* **normalize.sass:** These are the modern-day reset rules. (Learn more about them here: https://github.com/necolas/normalize.css) These rules 'normalize' inconsistencies across most web browsers, giving us a solid foundation to build upon. These rules define nothing particular to this site's design; that is reserved for base.sass.
+			* **normalize.sass:** Contains modern-day reset rules. These rules 'normalize' inconsistencies across most web browsers, giving us a solid foundation to build upon. These rules define nothing particular to this project's design; that is reserved for base.sass. [Learn more about this file.](https://github.com/necolas/normalize.css)
 
-			* **variables.sass:** Since we're big fans of not repeating ourselves not repeating ourselves, it's mighty convenient to set up variables to be utilized throughout the other Sass files. …and this is where that happens.
+			* **variables.sass:** Contains variables to be utilized throughout the other Sass files.
 
 		* **/_mixin/:** Contains partials for the mixins that are utilized throughout the other Sass files.
 
-			* **button.sass:** This creates the "btn" mixin, allowing you to turn anchors (and other select elements) into buttons. It has a fair amount of adjustable parameters along with sensible default values, if needed. See the file for more detailed information.
+			* **button.sass:** This creates the `btn` mixin, allowing you to turn anchors (and other certain elements) into lovely looking buttons. It has a good amount of parameters that can be passed through to the mixin, along with sensible default values if you opt to not pass anything. See the file itself for more detailed information.
 
-			* **image-replace.sass:** This creates the "ir" mixin, making it simple to do image-replacement in both standard and high resolution environments, and it even has a bit of Compass magic built-in to help you define dimensions and paths automatically. See the file for more detailed information.
+			* **image-replace.sass:** This creates the `ir` mixin, making it simple to do image-replacement in both standard and high resolution environments, and it even has a bit of Compass functionality built in to help you define dimensions and paths automatically. See the file for more detailed information.
 
-			* **media-queries.sass:** This creates a handful of media query mixins to query things like viewport width, pixel density, and (maybe?) more. See the file for more detailed information.
+			* **media-queries.sass:** This creates a handful of media query mixins to query things like viewport width, pixel density, etc. See the file for more detailed information.
 
-		* **/_module/:** Contains partials that represent a single, reusable, module * that can be utilized one or more times throughout the site. Think of them as sub-sections of a web page, like the global header, an Events module, etc.
+		* **/_module/:** Contains partials that represent a single, reusable, module that can be utilized one or more times throughout the project. Think of them as sub-sections of a web page, like the global header, an Events module, etc.
 
-			* **todo:** list module partials here...
+		* **/_page/:** Sometimes an entire web page needs its own unique selectors and/or declarations that are tweaked versions of their originals -- the home page is often a great example. This is where you should put individual partials for each web page that needs its own rules.
 
-			* **todo:** list module partials here...
+		* **_print.sass:** When a visitor prints a web page after rewinding a VHS tape and writing a check to pay for their perm, these rules will help the end-result look as good as possible.
 
-		* **/_page/:** Sometimes an entire web page needs its own unique selectors and/or declarations that are tweaked versions of the originals. The home page is often a great example of this requirement. This directory is where you'll put individual partials for each web page that needs its own rules.
+		* **main.sass:** This is the glue that holds everything above together. It imports all of the partials described above and the Sass compiler is instructed to use this file, and everything it imports, to build the main.css file mentioned above. **Important:** do not forget to update this Sass file to include each and every _new_ partial you make.
 
-			* **todo:** list page partials here...
-			* **todo:** list module partials here...
+	* **.gitignore:** A nearly-empty .gitignore file for you to tweak as you see fit. [Learn more about the .gitignore file.](https://help.github.com/articles/ignoring-files)
 
-		* **_print.sass:** When somebody prints a web page after rewinding a VHS tape, these rules will help the end-result look as good as possible.
+	* **.htaccess:** 99% of this file is sourced from the [HTML5 Boilerplate instance](https://github.com/h5bp/server-configs/blob/master/apache/README.md), with a few code blocks stripped out and a few other values adjusted to better align themselves with our common requirements.
 
-		* **main.sass:** This is the glue that bonds everything together. This file exists to import all of the partials described above. The Sass compiler is instructed to use this file, and everything it imports, to build a standard css file that resides at /\_/css/main.css. This css file is, naturally, what the markup looks at to get all of its style rules. **Important:** do not forget to update main.sass to include each and every _new_ partial you make.
+	* **404.html:** The above .htaccess file has an ErrorDocument rule that sets this 404.html file as the de-facto 404 page. Update it to suit your project's design, needs, etc.
 
-	* **.gitignore:** A nearly-empty .gitignore file for you to add to as you see fit.
+	* **apple-touch-icon...:** Update these to match your project's design as needed. [Learn more about these icons.](https://developer.apple.com/library/ios/#documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
 
-	* **.htaccess:** 99% of this file is sourced from the HTML5 Boilerplate instance, with a few code blocks stripped out and a few other values adjusted to better align themselves with our common requirements.
+	* **config.rb:** This file is used by Compass to set some rules, directories, and the working environment needed to compile Sass files and offer Compass-specific features to simplify development. [Learn more about Compass' config.rb file.](http://compass-style.org/help/tutorials/configuration-reference/)
 
-	* **404.html:** The above .htaccess file has an ErrorDocument rule that sets this document as the de-facto 404 page. Update it to suit your project's design, needs, etc.
+	* **favicon.ico:** Update this to match your project's design as needed. If you're supporting high resolution devices, be sure to read the following article: [http://daringfireball.net/2013/01/retina_favicons](http://daringfireball.net/2013/01/retina_favicons)
 
-	* **apple-touch-icon...:** Update these to match your project's design as needed.
+	* **humans.txt:** Update this to match your team's and/or organization's information, along with any *thanks* you wish to provide, and a simple list of the technology you used to build your project. [Learn more about humans.txt.](http://humanstxt.org/)
 
-	* **config.rb:** This file is used by Compass to set some rules, directories, and the working environment needed to compile Sass files and offer Compass-specific features to simplify development.
+	* **index.php:** This file serves two purposes:
 
-	* **favicon.ico:** Update this to match your project's design as needed. If you're supporting hidpi devices, be sure to read the following article: [http://daringfireball.net/2013/01/retina_favicons](http://daringfireball.net/2013/01/retina_favicons)
+		* If you ignore all of the demonstration code between lines 20 and 213, what remains is a great starting point for all of the project's templates.
 
-	* **humans.txt:** Update this to match your team's and/or organization's information, along with any *thanks* you wish to provide, and a simple list of the technology you used to complete the project.
+		* The demonstration code *itself* serves as a good resource to borrow from, and to show you how the various elements render in a web browser.
 
-	* **index.php:** This document serves two purposes
+	* **LICENSE-h5bp:** Because this code base borrows heavily from the [HTML5 Boilerplate project](https://github.com/h5bp/html5-boilerplate), we're including its license.
 
-		1. If you exclude all of the demonstration code between lines 20 and 213, the remaining code is a great starting point for all of your project's templates.
-
-		2. However, the demonstration code itself serves as a good resource to borrow from, and to show you how the various elements render in a web browser.
-
-	* **LICENSE-h5bp:** Because this code base borrows heavily from the HTML5 Boilerplate project, we're including its license.
-
-	* **:** Direct search engines to stay away from certain directories and/or files in your project; update this file to match your project's needs.
+	* **robots.txt:** Direct search engines to stay away from certain directories and/or files in your project; update this file to match your project's needs. [Learn more about robots.txt.](http://en.wikipedia.org/wiki/Robots_exclusion_standard)
