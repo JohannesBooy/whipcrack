@@ -3,18 +3,18 @@
 
 # TEAM
 
-    Amy Parker -- Design, creative direction
-    Brenden Tamilio -- Software architecture, back-end development
-    Dan Perrera -- Brand strategy, information architecture, design
-    Johannes Booy -- Information architecture, front-end development
-    Michael Witwicki -- Back-end development
-    Marc Amos -- Front-end development
-    Jeff Ausura -- Front-end development, back-end development
+	Amy Parker -- Design, creative direction
+	Brenden Tamilio -- Software architecture, back-end development
+	Dan Perrera -- Brand strategy, information architecture, design
+	Johannes Booy -- Information architecture, front-end development
+	Michael Witwicki -- Back-end development
+	Marc Amos -- Front-end development
+	Jeff Ausura -- Front-end development, back-end development
 
 # THANKS
 
-    To everybody
+	To everybody
 
 # TECHNOLOGY COLOPHON
 
-    todo: update this
+	todo: update this

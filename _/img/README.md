@@ -1,1 +1,1 @@
-todo: add content that describes the purpose of this directory (perhaps borrowed from /_/sass/README?)
+Put your site design image(s) here in /_/img/.
