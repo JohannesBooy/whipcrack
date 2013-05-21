@@ -68,26 +68,26 @@ The core tenets of Whipcrack:
 
 		* **main.sass:** This is the glue that holds everything above together. It imports all of the partials described above and the Sass compiler is instructed to use this file, and everything it imports, to build the main.css file mentioned above. **Important:** do not forget to update this Sass file to include each and every _new_ partial you make.
 
-	* **.gitignore:** A nearly-empty .gitignore file for you to tweak as you see fit. [Learn more about the .gitignore file.](https://help.github.com/articles/ignoring-files)
+* **.gitignore:** A nearly-empty .gitignore file for you to tweak as you see fit. [Learn more about the .gitignore file.](https://help.github.com/articles/ignoring-files)
 
-	* **.htaccess:** 99% of this file is sourced from the [HTML5 Boilerplate instance](https://github.com/h5bp/server-configs/blob/master/apache/README.md), with a few code blocks stripped out and a few other values adjusted to better align themselves with our common requirements.
+* **.htaccess:** 99% of this file is sourced from the [HTML5 Boilerplate instance](https://github.com/h5bp/server-configs/blob/master/apache/README.md), with a few code blocks stripped out and a few other values adjusted to better align themselves with our common requirements.
 
-	* **404.html:** The above .htaccess file has an ErrorDocument rule that sets this 404.html file as the de-facto 404 page. Update it to suit your project's design, needs, etc.
+* **404.html:** The above .htaccess file has an ErrorDocument rule that sets this 404.html file as the de-facto 404 page. Update it to suit your project's design, needs, etc.
 
-	* **apple-touch-icon...:** Update these to match your project's design as needed. [Learn more about these icons.](https://developer.apple.com/library/ios/#documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
+* **apple-touch-icon...:** Update these to match your project's design as needed. [Learn more about these icons.](https://developer.apple.com/library/ios/#documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
 
-	* **config.rb:** This file is used by Compass to set some rules, directories, and the working environment needed to compile Sass files and offer Compass-specific features to simplify development. [Learn more about Compass' config.rb file.](http://compass-style.org/help/tutorials/configuration-reference/)
+* **config.rb:** This file is used by Compass to set some rules, directories, and the working environment needed to compile Sass files and offer Compass-specific features to simplify development. [Learn more about Compass' config.rb file.](http://compass-style.org/help/tutorials/configuration-reference/)
 
-	* **favicon.ico:** Update this to match your project's design as needed. If you're supporting high resolution devices, be sure to read the following article: [http://daringfireball.net/2013/01/retina_favicons](http://daringfireball.net/2013/01/retina_favicons)
+* **favicon.ico:** Update this to match your project's design as needed. If you're supporting high resolution devices, be sure to read the following article: [http://daringfireball.net/2013/01/retina_favicons](http://daringfireball.net/2013/01/retina_favicons)
 
-	* **humans.txt:** Update this to match your team's and/or organization's information, along with any *thanks* you wish to provide, and a simple list of the technology you used to build your project. [Learn more about humans.txt.](http://humanstxt.org/)
+* **humans.txt:** Update this to match your team's and/or organization's information, along with any *thanks* you wish to provide, and a simple list of the technology you used to build your project. [Learn more about humans.txt.](http://humanstxt.org/)
 
-	* **index.php:** This file serves two purposes:
+* **index.php:** This file serves two purposes:
 
-		* If you ignore all of the demonstration code between lines 20 and 213, what remains is a great starting point for all of the project's templates.
+	* If you ignore all of the demonstration code between lines 20 and 213, what remains is a great starting point for all of the project's templates.
 
-		* The demonstration code *itself* serves as a good resource to borrow from, and to show you how the various elements render in a web browser.
+	* The demonstration code *itself* serves as a good resource to borrow from, and to show you how the various elements render in a web browser.
 
-	* **LICENSE-h5bp:** Because this code base borrows heavily from the [HTML5 Boilerplate project](https://github.com/h5bp/html5-boilerplate), we're including its license.
+* **LICENSE-h5bp:** Because this code base borrows heavily from the [HTML5 Boilerplate project](https://github.com/h5bp/html5-boilerplate), we're including its license.
 
-	* **robots.txt:** Direct search engines to stay away from certain directories and/or files in your project; update this file to match your project's needs. [Learn more about robots.txt.](http://en.wikipedia.org/wiki/Robots_exclusion_standard)
+* **robots.txt:** Direct search engines to stay away from certain directories and/or files in your project; update this file to match your project's needs. [Learn more about robots.txt.](http://en.wikipedia.org/wiki/Robots_exclusion_standard)
