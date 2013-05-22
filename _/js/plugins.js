@@ -28,16 +28,11 @@
 // =====================================================================
 // Place jQuery/helper plugins below.
 // ---------------------------------------------------------------------
-// If you're using jQuery plugins, make sure they're inside of a
-//      (function($){
+// Make sure js is inside of a
+//      (function(){
+//          "use strict";
 //          ...
-//      })(jQuery);
-// closure to keep them in the jQuery namespace safety blanket.
-//
-// Otherwise, make sure non-jQuery plugins are inside of a
-//      (function (){
-//          ...
-//      })();
-// closure for the same benefit.
+//      }());
+// closure to keep the name-space safety blanket in place
 // =====================================================================
 
