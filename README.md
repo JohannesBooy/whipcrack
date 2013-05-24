@@ -38,6 +38,10 @@ The core tenets of Whipcrack:
 
 			* **flexslider-2.0.0:** A minified version of [Flexslider 2](http://flexslider.woothemes.com), a lovely responsive slider for jQuery. Inlude in `plugins.js` if your project requires.
 
+		* **main.js:** This is where you write your project-specific JavaScript.
+
+		* **plugins.js:** Keep 3rd party plugins/scripts here.
+
 	* **/sass/:** This is where the Sass/css magic happens; all of the style rules that compile to the above mentioned /_/css/main.css file exist in this directory.
 
 		* **/_foundation/:** Contains partials filled with the foundational basics needed to support a healthy project.
