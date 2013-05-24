@@ -34,9 +34,9 @@ The core tenets of Whipcrack:
 
 			* **modernizr-2.6.2.min.js:** A minified version of the Modernizr library.
 
-		* **main.js:** This is where you write your project-specific JavaScript.
+			* **picturefill.js:** A responsive images approach called [picturefill](https://github.com/scottjehl/picturefill) based on the proposed picture element. Inlude in `plugins.js` if your project requires.
 
-		* **plugins:** Keep 3rd party plugins/scripts here.
+			* **flexslider-2.0.0:** A minified version of [Flexslider 2](http://flexslider.woothemes.com), a lovely responsive slider for jQuery. Inlude in `plugins.js` if your project requires.
 
 	* **/sass/:** This is where the Sass/css magic happens; all of the style rules that compile to the above mentioned /_/css/main.css file exist in this directory.
 
