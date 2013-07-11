@@ -34,7 +34,7 @@ The core tenets of Whipcrack:
 
 			* **modernizr-2.6.2.min.js:** A minified version of the Modernizr library.
 
-			* **picturefill.js:** A responsive images approach called [picturefill](https://github.com/scottjehl/picturefill) based on the proposed picture element. Inlude in `plugins.js` if your project requires.
+			* **picturefill.js:** A responsive images approach called [picturefill](https://github.com/scottjehl/picturefill), based on the proposed picture element. Include in `plugins.js` if your project requires.
 
 			* **flexslider-2.0.0:** A minified version of [Flexslider 2](http://flexslider.woothemes.com), a lovely responsive slider for jQuery. Inlude in `plugins.js` if your project requires.
 
