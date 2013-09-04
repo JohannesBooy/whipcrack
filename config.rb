@@ -39,7 +39,7 @@ relative_assets = true
 if environment == :development
 	line_comments = true
 	output_style = :nested
-	sass_options = { :debug_info => true }
+	sass_options = { :debug_info => false }  # make true to debug
 end
 
 # Production
