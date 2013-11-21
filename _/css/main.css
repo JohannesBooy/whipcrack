@@ -1,5 +1,5 @@
 /* Hello, wayward source viewer. You may notice that that the following CSS has been minified. This is partially to enhance performance and partially to discourage tinkering because the style was originally written in Sass (http://sass-lang.com/) with Compass (http://compass-style.org/). You can see how this site was built by tacking /_/sass/main.sass on to the end of the domain name, and following any @import paths from there, if desired. We learned much of what we know by perusing and reusing other people's code. I hope that this preserves the same benefits for you. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\0000311}}
+/* line 11, ../sass/_foundation/normalize.sass */
 article,
 aside,
 details,
@@ -14,7 +14,7 @@ section,
 summary {
   display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\0000328}}
+/* line 28, ../sass/_foundation/normalize.sass */
 audio,
 canvas,
 video {
@@ -22,22 +22,22 @@ video {
   *display: inline;
   *zoom: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\0000338}}
+/* line 38, ../sass/_foundation/normalize.sass */
 audio:not([controls]) {
   display: none;
   height: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\0000346}}
+/* line 46, ../sass/_foundation/normalize.sass */
 [hidden] {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\0000358}}
+/* line 58, ../sass/_foundation/normalize.sass */
 html {
   font-size: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\0000366}}
+/* line 66, ../sass/_foundation/normalize.sass */
 html,
 button,
 input,
@@ -45,83 +45,83 @@ select,
 textarea {
   font-family: sans-serif; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\0000376}}
+/* line 76, ../sass/_foundation/normalize.sass */
 body {
   margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\0000387}}
+/* line 87, ../sass/_foundation/normalize.sass */
 a:focus {
   outline: thin dotted; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\0000393}}
+/* line 93, ../sass/_foundation/normalize.sass */
 a:active,
 a:hover {
   outline: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003105}}
+/* line 105, ../sass/_foundation/normalize.sass */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003109}}
+/* line 109, ../sass/_foundation/normalize.sass */
 h2 {
   font-size: 1.5em;
   margin: 0.83em 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003113}}
+/* line 113, ../sass/_foundation/normalize.sass */
 h3 {
   font-size: 1.17em;
   margin: 1em 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003117}}
+/* line 117, ../sass/_foundation/normalize.sass */
 h4 {
   font-size: 1em;
   margin: 1.33em 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003121}}
+/* line 121, ../sass/_foundation/normalize.sass */
 h5 {
   font-size: 0.83em;
   margin: 1.67em 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003125}}
+/* line 125, ../sass/_foundation/normalize.sass */
 h6 {
   font-size: 0.67em;
   margin: 2.33em 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003132}}
+/* line 132, ../sass/_foundation/normalize.sass */
 abbr[title] {
   border-bottom: 1px dotted; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003138}}
+/* line 138, ../sass/_foundation/normalize.sass */
 b,
 strong {
   font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003143}}
+/* line 143, ../sass/_foundation/normalize.sass */
 blockquote {
   margin: 1em 40px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003149}}
+/* line 149, ../sass/_foundation/normalize.sass */
 dfn {
   font-style: italic; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003156}}
+/* line 156, ../sass/_foundation/normalize.sass */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003164}}
+/* line 164, ../sass/_foundation/normalize.sass */
 mark {
   background: yellow;
   color: black; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003171}}
+/* line 171, ../sass/_foundation/normalize.sass */
 p,
 pre {
   margin: 1em 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003178}}
+/* line 178, ../sass/_foundation/normalize.sass */
 code,
 kbd,
 pre,
@@ -130,27 +130,27 @@ samp {
   _font-family: "courier new", monospace;
   font-size: 1em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003189}}
+/* line 189, ../sass/_foundation/normalize.sass */
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003197}}
+/* line 197, ../sass/_foundation/normalize.sass */
 q {
   quotes: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003203}}
+/* line 203, ../sass/_foundation/normalize.sass */
 q:before,
 q:after {
   content: "";
   content: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003211}}
+/* line 211, ../sass/_foundation/normalize.sass */
 small {
   font-size: 80%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003217}}
+/* line 217, ../sass/_foundation/normalize.sass */
 sub,
 sup {
   font-size: 75%;
@@ -158,69 +158,69 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003224}}
+/* line 224, ../sass/_foundation/normalize.sass */
 sup {
   top: -0.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003227}}
+/* line 227, ../sass/_foundation/normalize.sass */
 sub {
   bottom: -0.25em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003238}}
+/* line 238, ../sass/_foundation/normalize.sass */
 dl,
 menu,
 ol,
 ul {
   margin: 1em 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003244}}
+/* line 244, ../sass/_foundation/normalize.sass */
 dd {
   margin: 0 0 0 40px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003250}}
+/* line 250, ../sass/_foundation/normalize.sass */
 menu,
 ol,
 ul {
   padding: 0 0 0 40px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003258}}
+/* line 258, ../sass/_foundation/normalize.sass */
 nav ul,
 nav ol {
   list-style: none;
   list-style-image: none;
   padding-left: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003273}}
+/* line 273, ../sass/_foundation/normalize.sass */
 img {
   border: 0;
   -ms-interpolation-mode: bicubic; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003280}}
+/* line 280, ../sass/_foundation/normalize.sass */
 svg:not(:root) {
   overflow: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003291}}
+/* line 291, ../sass/_foundation/normalize.sass */
 figure {
   margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003302}}
+/* line 302, ../sass/_foundation/normalize.sass */
 form {
   margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003308}}
+/* line 308, ../sass/_foundation/normalize.sass */
 fieldset {
   border: 1px solid silver;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003318}}
+/* line 318, ../sass/_foundation/normalize.sass */
 legend {
   border: 0;
   padding: 0;
   white-space: normal;
   *margin-left: -7px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003329}}
+/* line 329, ../sass/_foundation/normalize.sass */
 button,
 input,
 select,
@@ -230,17 +230,17 @@ textarea {
   vertical-align: baseline;
   *vertical-align: middle; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003341}}
+/* line 341, ../sass/_foundation/normalize.sass */
 button,
 input {
   line-height: normal; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003351}}
+/* line 351, ../sass/_foundation/normalize.sass */
 button,
 select {
   text-transform: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003362}}
+/* line 362, ../sass/_foundation/normalize.sass */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -249,12 +249,12 @@ input[type="submit"] {
   cursor: pointer;
   *overflow: visible; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003373}}
+/* line 373, ../sass/_foundation/normalize.sass */
 button[disabled],
 html input[disabled] {
   cursor: default; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003383}}
+/* line 383, ../sass/_foundation/normalize.sass */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -262,41 +262,41 @@ input[type="radio"] {
   *height: 13px;
   *width: 13px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003395}}
+/* line 395, ../sass/_foundation/normalize.sass */
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   box-sizing: content-box; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003404}}
+/* line 404, ../sass/_foundation/normalize.sass */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003411}}
+/* line 411, ../sass/_foundation/normalize.sass */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003420}}
+/* line 420, ../sass/_foundation/normalize.sass */
 textarea {
   overflow: auto;
   vertical-align: top; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/normalize\.sass}line{font-family:\00003432}}
+/* line 432, ../sass/_foundation/normalize.sass */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/base\.sass}line{font-family:\000036}}
+/* line 6, ../sass/_foundation/base.sass */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/base\.sass}line{font-family:\0000312}}
+/* line 12, ../sass/_foundation/base.sass */
 html,
 button,
 input,
@@ -305,12 +305,12 @@ textarea {
   color: #222222;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/base\.sass}line{font-family:\0000321}}
+/* line 21, ../sass/_foundation/base.sass */
 body {
   font-size: 1em;
   line-height: 1.4; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/base\.sass}line{font-family:\0000326}}
+/* line 26, ../sass/_foundation/base.sass */
 hr {
   display: block;
   height: 1px;
@@ -319,27 +319,27 @@ hr {
   margin: 1em 0;
   padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/base\.sass}line{font-family:\0000335}}
+/* line 35, ../sass/_foundation/base.sass */
 img {
   vertical-align: middle; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/base\.sass}line{font-family:\0000345}}
+/* line 45, ../sass/_foundation/base.sass */
 fieldset {
   border: 0;
   margin: 0;
   padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/base\.sass}line{font-family:\0000351}}
+/* line 51, ../sass/_foundation/base.sass */
 textarea {
   resize: vertical; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/base\.sass}line{font-family:\0000357}}
+/* line 57, ../sass/_foundation/base.sass */
 ol,
 ul,
 dd {
   margin-left: 0;
   padding-left: 32px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/base\.sass}line{font-family:\0000363}}
+  /* line 63, ../sass/_foundation/base.sass */
   ol ol,
   ol ul,
   ul ol,
@@ -348,332 +348,332 @@ dd {
   dd ul {
     margin: 0.5em 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/base\.sass}line{font-family:\0000368}}
+/* line 68, ../sass/_foundation/base.sass */
 li {
   margin-bottom: 0.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/base\.sass}line{font-family:\0000374}}
+/* line 74, ../sass/_foundation/base.sass */
 blockquote {
   margin-left: 32px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/base\.sass}line{font-family:\0000377}}
+  /* line 77, ../sass/_foundation/base.sass */
   blockquote p {
     font-style: italic; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/base\.sass}line{font-family:\0000383}}
+/* line 83, ../sass/_foundation/base.sass */
 pre {
   font-family: "Inconsolata", "Monoco", Courier New, monospace;
   font-size: 0.875em;
   overflow: scroll; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/base\.sass}line{font-family:\0000388}}
+  /* line 88, ../sass/_foundation/base.sass */
   pre code {
     display: block;
     padding: 1em 16px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/base\.sass}line{font-family:\0000399}}
+/* line 99, ../sass/_foundation/base.sass */
 a {
   color: #049cdb; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003102}}
+  /* line 102, ../sass/_foundation/base.sass */
   a:hover, a:focus {
     color: #036690; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003106}}
+  /* line 106, ../sass/_foundation/base.sass */
   a:visited {
     color: #049cdb; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003115}}
+/* line 115, ../sass/_foundation/base.sass */
 h1 {
   font-size: 2em;
   margin: 1em 0 0.1em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003119}}
+/* line 119, ../sass/_foundation/base.sass */
 h2 {
   font-size: 1.625em;
   margin: 1em 0 0.1em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003123}}
+/* line 123, ../sass/_foundation/base.sass */
 h3 {
   font-size: 0.9375em;
   margin: 1.75em 0 0.2em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003127}}
+/* line 127, ../sass/_foundation/base.sass */
 h4 {
   font-size: 0.8125em;
   margin: 1.75em 0 0.2em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003131}}
+/* line 131, ../sass/_foundation/base.sass */
 h5 {
   font-size: 0.8125em;
   margin: 1.75em 0 0.4em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003135}}
+/* line 135, ../sass/_foundation/base.sass */
 h6 {
   font-size: 0.8125em;
   margin: 1.75em 0 0.4em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003142}}
+/* line 142, ../sass/_foundation/base.sass */
 ::-moz-selection {
   background: #b3d4fc;
   color: #222222;
   text-shadow: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003147}}
+/* line 147, ../sass/_foundation/base.sass */
 ::selection {
   background: #b3d4fc;
   color: #222222;
   text-shadow: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/base\.sass}line{font-family:\00003158}}
+/* line 158, ../sass/_foundation/base.sass */
 .chromeframe {
   margin: 0.2em 0;
   background: #cccccc;
   color: black;
   padding: 0.2em 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000330}}
+/* line 30, ../sass/_foundation/grid.sass */
 ul.gw,
 ol.gw {
   list-style: none;
   padding-left: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000338}}
+/* line 38, ../sass/_foundation/grid.sass */
 .c {
   margin-left: auto;
   margin-right: auto;
   max-width: 62.5em;
   padding-right: 1em; }
   @media only screen and (min-width: 46.9375em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000338}}
+    /* line 38, ../sass/_foundation/grid.sass */
     .c {
       padding-right: 2em; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000351}}
+/* line 51, ../sass/_foundation/grid.sass */
 .g {
   float: left;
   padding-left: 1em; }
   @media only screen and (min-width: 46.9375em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000351}}
+    /* line 51, ../sass/_foundation/grid.sass */
     .g {
       padding-left: 2em; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000359}}
+/* line 59, ../sass/_foundation/grid.sass */
 .g-rev {
   float: right;
   padding-left: 1em; }
   @media only screen and (min-width: 46.9375em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000359}}
+    /* line 59, ../sass/_foundation/grid.sass */
     .g-rev {
       padding-left: 2em; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000367}}
+/* line 67, ../sass/_foundation/grid.sass */
 li.g,
 li.g-rev {
   margin-bottom: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000377}}
+/* line 77, ../sass/_foundation/grid.sass */
 .one-whole {
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000381}}
+/* line 81, ../sass/_foundation/grid.sass */
 .one-half {
   width: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000385}}
+/* line 85, ../sass/_foundation/grid.sass */
 .one-third {
   width: 33.333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000389}}
+/* line 89, ../sass/_foundation/grid.sass */
 .two-thirds {
   width: 66.666%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000393}}
+/* line 93, ../sass/_foundation/grid.sass */
 .one-quarter {
   width: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\0000397}}
+/* line 97, ../sass/_foundation/grid.sass */
 .three-quarters {
   width: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003101}}
+/* line 101, ../sass/_foundation/grid.sass */
 .one-fifth {
   width: 20%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003105}}
+/* line 105, ../sass/_foundation/grid.sass */
 .two-fifths {
   width: 40%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003109}}
+/* line 109, ../sass/_foundation/grid.sass */
 .three-fifths {
   width: 60%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003113}}
+/* line 113, ../sass/_foundation/grid.sass */
 .four-fifths {
   width: 80%; }
 
 @media only screen and (min-width: 25.0625em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003125}}
+  /* line 125, ../sass/_foundation/grid.sass */
   .s-one-whole {
     width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003129}}
+  /* line 129, ../sass/_foundation/grid.sass */
   .s-one-half {
     width: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003133}}
+  /* line 133, ../sass/_foundation/grid.sass */
   .s-one-third {
     width: 33.333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003137}}
+  /* line 137, ../sass/_foundation/grid.sass */
   .s-two-thirds {
     width: 66.666%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003141}}
+  /* line 141, ../sass/_foundation/grid.sass */
   .s-one-quarter {
     width: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003145}}
+  /* line 145, ../sass/_foundation/grid.sass */
   .s-three-quarters {
     width: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003149}}
+  /* line 149, ../sass/_foundation/grid.sass */
   .s-one-fifth {
     width: 20%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003153}}
+  /* line 153, ../sass/_foundation/grid.sass */
   .s-two-fifths {
     width: 40%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003157}}
+  /* line 157, ../sass/_foundation/grid.sass */
   .s-three-fifths {
     width: 60%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003161}}
+  /* line 161, ../sass/_foundation/grid.sass */
   .s-four-fifths {
     width: 80%; } }
 @media only screen and (min-width: 46.9375em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003173}}
+  /* line 173, ../sass/_foundation/grid.sass */
   .m-one-whole {
     width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003177}}
+  /* line 177, ../sass/_foundation/grid.sass */
   .m-one-half {
     width: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003181}}
+  /* line 181, ../sass/_foundation/grid.sass */
   .m-one-third {
     width: 33.333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003185}}
+  /* line 185, ../sass/_foundation/grid.sass */
   .m-two-thirds {
     width: 66.666%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003189}}
+  /* line 189, ../sass/_foundation/grid.sass */
   .m-one-quarter {
     width: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003193}}
+  /* line 193, ../sass/_foundation/grid.sass */
   .m-three-quarters {
     width: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003197}}
+  /* line 197, ../sass/_foundation/grid.sass */
   .m-one-fifth {
     width: 20%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003201}}
+  /* line 201, ../sass/_foundation/grid.sass */
   .m-two-fifths {
     width: 40%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003205}}
+  /* line 205, ../sass/_foundation/grid.sass */
   .m-three-fifths {
     width: 60%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003209}}
+  /* line 209, ../sass/_foundation/grid.sass */
   .m-four-fifths {
     width: 80%; } }
 @media only screen and (min-width: 56.3125em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003221}}
+  /* line 221, ../sass/_foundation/grid.sass */
   .l-one-whole {
     width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003225}}
+  /* line 225, ../sass/_foundation/grid.sass */
   .l-one-half {
     width: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003229}}
+  /* line 229, ../sass/_foundation/grid.sass */
   .l-one-third {
     width: 33.333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003233}}
+  /* line 233, ../sass/_foundation/grid.sass */
   .l-two-thirds {
     width: 66.666%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003237}}
+  /* line 237, ../sass/_foundation/grid.sass */
   .l-one-quarter {
     width: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003241}}
+  /* line 241, ../sass/_foundation/grid.sass */
   .l-three-quarters {
     width: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003245}}
+  /* line 245, ../sass/_foundation/grid.sass */
   .l-one-fifth {
     width: 20%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003249}}
+  /* line 249, ../sass/_foundation/grid.sass */
   .l-two-fifths {
     width: 40%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003253}}
+  /* line 253, ../sass/_foundation/grid.sass */
   .l-three-fifths {
     width: 60%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003257}}
+  /* line 257, ../sass/_foundation/grid.sass */
   .l-four-fifths {
     width: 80%; } }
 @media only screen and (min-width: 75.0625em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003269}}
+  /* line 269, ../sass/_foundation/grid.sass */
   .xl-one-whole {
     width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003273}}
+  /* line 273, ../sass/_foundation/grid.sass */
   .xl-one-half {
     width: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003277}}
+  /* line 277, ../sass/_foundation/grid.sass */
   .xl-one-third {
     width: 33.333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003281}}
+  /* line 281, ../sass/_foundation/grid.sass */
   .xl-two-thirds {
     width: 66.666%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003285}}
+  /* line 285, ../sass/_foundation/grid.sass */
   .xl-one-quarter {
     width: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003289}}
+  /* line 289, ../sass/_foundation/grid.sass */
   .xl-three-quarters {
     width: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003293}}
+  /* line 293, ../sass/_foundation/grid.sass */
   .xl-one-fifth {
     width: 20%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003297}}
+  /* line 297, ../sass/_foundation/grid.sass */
   .xl-two-fifths {
     width: 40%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003301}}
+  /* line 301, ../sass/_foundation/grid.sass */
   .xl-three-fifths {
     width: 60%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/grid\.sass}line{font-family:\00003305}}
+  /* line 305, ../sass/_foundation/grid.sass */
   .xl-four-fifths {
     width: 80%; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/helpers\.sass}line{font-family:\000038}}
+/* line 8, ../sass/_foundation/helpers.sass */
 .hidden {
   display: none !important;
   visibility: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/helpers\.sass}line{font-family:\0000315}}
+/* line 15, ../sass/_foundation/helpers.sass */
 .invisible {
   border: 0;
   clip: rect(0 0 0 0);
@@ -684,19 +684,19 @@ li.g-rev {
   position: absolute;
   width: 1px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/helpers\.sass}line{font-family:\0000328}}
+/* line 28, ../sass/_foundation/helpers.sass */
 .clearfix, .c {
   *zoom: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/helpers\.sass}line{font-family:\0000329}}
+  /* line 29, ../sass/_foundation/helpers.sass */
   .clearfix:before, .c:before, .clearfix:after, .c:after {
     content: " ";
     display: table; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_foundation\/helpers\.sass}line{font-family:\0000334}}
+  /* line 34, ../sass/_foundation/helpers.sass */
   .clearfix:after, .c:after {
     clear: both; }
 
 @media print {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_print\.sass}line{font-family:\000032}}
+  /* line 2, ../sass/_print.sass */
   * {
     background: transparent !important;
     box-shadow: none !important;
@@ -705,40 +705,40 @@ li.g-rev {
     -ms-filter: none !important;
     text-shadow: none !important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_print\.sass}line{font-family:\0000311}}
+  /* line 11, ../sass/_print.sass */
   a, a:visited {
     text-decoration: underline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_print\.sass}line{font-family:\0000315}}
+  /* line 15, ../sass/_print.sass */
   a[href]:after {
     content: " (" attr(href) ")"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_print\.sass}line{font-family:\0000319}}
+  /* line 19, ../sass/_print.sass */
   abbr[title]:after {
     content: " (" attr(title) ")"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_print\.sass}line{font-family:\0000323}}
+  /* line 23, ../sass/_print.sass */
   pre, blockquote {
     border: 1px solid #999999;
     page-break-inside: avoid; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_print\.sass}line{font-family:\0000328}}
+  /* line 28, ../sass/_print.sass */
   thead {
     display: table-header-group; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_print\.sass}line{font-family:\0000332}}
+  /* line 32, ../sass/_print.sass */
   tr, img {
     page-break-inside: avoid; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_print\.sass}line{font-family:\0000336}}
+  /* line 36, ../sass/_print.sass */
   img {
     max-width: 100% !important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_print\.sass}line{font-family:\0000340}}
+  /* line 40, ../sass/_print.sass */
   p, h2, h3 {
     orphans: 3;
     widows: 3; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dperrera\/Sites\/whipcrack\/_\/sass\/_print\.sass}line{font-family:\0000345}}
+  /* line 45, ../sass/_print.sass */
   h2, h3 {
     page-break-after: avoid; } }

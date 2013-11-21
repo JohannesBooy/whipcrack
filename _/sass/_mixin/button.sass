@@ -19,10 +19,10 @@
 
 // Example usage, adjusting some of the default values:
 // .log-in a
-// 		+btn($bg-color:#f90, $hf-bg-color:#c90, $border-radius:15px)
+// 		+btn($size:large, $bg-color:#f90, $hf-bg-color:#c90, $border-radius:15px)
 // ============================================================
 
-@mixin btn($bg-color:$blue, $color:$white, $hf-bg-color:$gray-dark, $hf-color:$white, $font-size:0.875em, $border-radius:8px, $speed:0.1s)
+@mixin btn($size:small, $bg-color:$blue, $color:$white, $hf-bg-color:$gray-dark, $hf-color:$white, $font-size:0.875em, $border-radius:8px, $speed:0.1s)
 	+border-radius($border-radius)
 	+single-transition(all, $speed, ease-in-out, 0)
 	background-color: $bg-color
@@ -33,6 +33,12 @@
 	padding: .6em 1.5em
 	text-decoration: none
 	text-transform: uppercase
+	@if $size == small
+		font-size: .94em
+		padding: .75em 2.3em .6em
+	@else if $size == large
+		font-size: 1.31em
+		padding: .65em 2.6em .5em
 
 	&:visited
 		background-color: $bg-color
