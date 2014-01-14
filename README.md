@@ -32,7 +32,7 @@ The core tenets of Whipcrack:
 
 			* **jquery-1.10.2.min.js:** A minified version of the jQuery library.
 
-			* **modernizr-2.6.2.min.js:** A minified version of the Modernizr library.
+			* **modernizr-2.7.1.min.js:** A minified version of the Modernizr library.
 
 			* **picturefill.js:** A responsive images approach called [picturefill](https://github.com/scottjehl/picturefill), based on the proposed picture element. Include in `plugins.js` if your project requires.
 

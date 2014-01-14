@@ -8,7 +8,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="stylesheet" href="/_/css/main.css" />
-		<script src="/_/js/vendor/modernizr-2.6.2.min.js"></script>
+		<script src="/_/js/vendor/modernizr-2.7.1.min.js"></script>
 		<title></title>
 		<meta name="description" content="" />
 	</head>
