@@ -36,8 +36,6 @@ The core tenets of Whipcrack:
 
 			* **picturefill.js:** A responsive images approach called [picturefill](https://github.com/scottjehl/picturefill), based on the proposed picture element. Include in `plugins.js` if your project requires.
 
-			* **flexslider-2.0.0:** A minified version of [Flexslider 2](http://flexslider.woothemes.com), a lovely responsive slider for jQuery. Inlude in `plugins.js` if your project requires.
-
 		* **main.js:** This is where you write your project-specific JavaScript.
 
 		* **plugins.js:** Keep 3rd party plugins/scripts here.
