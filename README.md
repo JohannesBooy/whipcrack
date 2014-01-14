@@ -78,7 +78,7 @@ The core tenets of Whipcrack:
 
 * **404.html:** The above .htaccess file has an ErrorDocument rule that sets this 404.html file as the de-facto 404 page. Update it to suit your project's design, needs, etc.
 
-* **apple-touch-icon...:** Update these to match your project's design as needed. [Learn more about these icons.](https://developer.apple.com/library/ios/#documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
+* **apple-touch-icon-precomposed.png:** Update this to match your project's design as needed. [Learn more about this icon.](https://developer.apple.com/library/ios/#documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
 
 * **config.rb:** This file is used by Compass to set some rules, directories, and the working environment needed to compile Sass files and offer Compass-specific features to simplify development. [Learn more about Compass' config.rb file.](http://compass-style.org/help/tutorials/configuration-reference/)
 
