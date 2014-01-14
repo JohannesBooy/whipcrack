@@ -30,7 +30,7 @@ The core tenets of Whipcrack:
 
 		* **/vendor/:** Keep 3rd party JavaScript libraries here.
 
-			* **jquery-1.9.1.min.js:** A minified version of the jQuery library.
+			* **jquery-1.10.2.min.js:** A minified version of the jQuery library.
 
 			* **modernizr-2.6.2.min.js:** A minified version of the Modernizr library.
 
