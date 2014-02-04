@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!--[if IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8"><![endif]-->
 <!--[if IE 8]><html class="no-js lt-ie10 lt-ie9"><![endif]-->
 <!--[if IE 9]><html class="no-js lt-ie10"><![endif]-->
 <!--[if gt IE 9]><!--><html class="no-js"><!--<![endif]-->
@@ -13,10 +12,6 @@
 		<meta name="description" content="" />
 	</head>
 	<body>
-		<!--[if lt IE 9]>
-			<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-		<![endif]-->
-
 
 		<div class="gw">
 			<div class="c">
