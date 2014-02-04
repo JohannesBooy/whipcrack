@@ -26,6 +26,7 @@
 	+border-radius($border-radius)
 	+single-transition(all, $speed, ease-in-out, 0)
 	background-color: $bg-color
+	border: none
 	color: $color
 	display: inline-block
 	font-size: $font-size
@@ -35,10 +36,10 @@
 	text-transform: uppercase
 	@if $size == small
 		font-size: .94em
-		padding: .75em 2.3em .6em
+		padding: .75em 2.3em
 	@else if $size == large
 		font-size: 1.31em
-		padding: .65em 2.6em .5em
+		padding: .65em 2.6em
 
 	&:visited
 		background-color: $bg-color
