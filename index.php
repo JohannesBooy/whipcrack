@@ -4,12 +4,12 @@
 <!--[if gt IE 9]><!--><html class="no-js"><!--<![endif]-->
 	<head>
 		<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="/_/css/main.css" />
-		<script src="/_/js/vendor/modernizr-2.7.1.min.js"></script>
 		<title></title>
 		<meta name="description" content="" />
+		<script src="/_/js/vendor/modernizr-2.7.1.min.js"></script>
 	</head>
 	<body>
 
@@ -212,10 +212,12 @@
 		<script src="/_/js/plugins.js"></script>
 		<script src="/_/js/main.js"></script>
 		<script>
-			// var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-			// (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-			// g.src='//www.google-analytics.com/ga.js';
-			// s.parentNode.insertBefore(g,s)}(document,'script'));
+			// (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+			// function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+			// e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+			// e.src='//www.google-analytics.com/analytics.js';
+			// r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+			// ga('create','UA-XXXXX-X');ga('send','pageview');
 		</script>
 	</body>
 </html>
