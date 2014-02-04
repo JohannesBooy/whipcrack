@@ -2,19 +2,20 @@
 // Picturefill - Responsive Images that work today.
 // (and mimic the proposed Picture element with divs).
 // Author: Scott Jehl, Filament Group, 2012 | License: MIT/GPLv2
+// https://github.com/scottjehl/picturefill
 // ============================================================
 // Example Usage:
-// <div data-picture data-alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia">
-//     <div data-src="small.jpg"></div>
-//     <div data-src="medium.jpg"     data-media="(min-width: 400px)"></div>
-//     <div data-src="large.jpg"      data-media="(min-width: 800px)"></div>
-//     <div data-src="extralarge.jpg" data-media="(min-width: 1000px)"></div>
+// <span data-picture data-alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia">
+//     <span data-src="small.jpg"></span>
+//     <span data-src="medium.jpg"     data-media="(min-width: 400px)"></span>
+//     <span data-src="large.jpg"      data-media="(min-width: 800px)"></span>
+//     <span data-src="extralarge.jpg" data-media="(min-width: 1000px)"></span>
 
 //     <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
 //     <noscript>
 //         <img src="external/imgs/small.jpg" alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia">
 //     </noscript>
-// </div>
+// </span>
 // ============================================================
 
 (function( w ){
@@ -23,13 +24,13 @@
     "use strict";
 
     w.picturefill = function() {
-        var ps = w.document.getElementsByTagName( "div" );
+        var ps = w.document.getElementsByTagName( "span" );
 
         // Loop the pictures
         for( var i = 0, il = ps.length; i < il; i++ ){
             if( ps[ i ].getAttribute( "data-picture" ) !== null ){
 
-                var sources = ps[ i ].getElementsByTagName( "div" ),
+                var sources = ps[ i ].getElementsByTagName( "span" ),
                     matches = [];
 
                 // See if which sources match
@@ -45,16 +46,23 @@
             var picImg = ps[ i ].getElementsByTagName( "img" )[ 0 ];
 
             if( matches.length ){
-                if( !picImg ){
+                var matchedEl = matches.pop();
+                if( !picImg || picImg.parentNode.nodeName === "NOSCRIPT" ){
                     picImg = w.document.createElement( "img" );
                     picImg.alt = ps[ i ].getAttribute( "data-alt" );
-                    ps[ i ].appendChild( picImg );
+                }
+                else if( matchedEl === picImg.parentNode ){
+                    // Skip further actions if the correct image is already in place
+                    continue;
                 }
 
-                picImg.src =  matches.pop().getAttribute( "data-src" );
+                picImg.src =  matchedEl.getAttribute( "data-src" );
+                matchedEl.appendChild( picImg );
+                picImg.removeAttribute("width");
+                picImg.removeAttribute("height");
             }
             else if( picImg ){
-                ps[ i ].removeChild( picImg );
+                picImg.parentNode.removeChild( picImg );
             }
         }
         }
