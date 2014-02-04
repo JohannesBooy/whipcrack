@@ -1,4 +1,4 @@
-# Whipcrack v2.0
+# Whipcrack v2.1
 
 Whipcrack is a [Sass](http://sass-lang.com)-y front-end project starter infused with [Compass](http://compass-style.org) that builds upon a mixture of a few key components:
 
