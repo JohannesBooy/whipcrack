@@ -34,8 +34,6 @@ The core tenets of Whipcrack:
 
 			* **modernizr-2.7.1.min.js:** A minified version of the Modernizr library.
 
-			* **picturefill.js:** A responsive images approach called [picturefill](https://github.com/scottjehl/picturefill), based on the proposed picture element. Include in `plugins.js` if your project requires.
-
 		* **main.js:** This is where you write your project-specific JavaScript.
 
 		* **plugins.js:** Keep 3rd party plugins/scripts here.
