@@ -682,28 +682,12 @@ li.g-rev {
   /* line 305, ../sass/_foundation/grid.sass */
   .xl-four-fifths {
     width: 80%; } }
-/* line 8, ../sass/_foundation/helpers.sass */
-.hidden {
-  display: none !important;
-  visibility: hidden; }
-
-/* line 15, ../sass/_foundation/helpers.sass */
-.invisible {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px; }
-
 /* line 29, ../sass/_foundation/helpers.sass */
-.clearfix:before, .c:before, .clearfix:after, .c:after {
+.c:before, .c:after {
   content: " ";
   display: table; }
 /* line 34, ../sass/_foundation/helpers.sass */
-.clearfix:after, .c:after {
+.c:after {
   clear: both; }
 
 @media print {
