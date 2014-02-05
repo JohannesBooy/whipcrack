@@ -10,7 +10,7 @@
 	along with a few modifiers. This borrows HEAVILY from CSS Wizardry's
 	wonderful bucket of magic: https://github.com/csswizardry/csswizardry-grids
 
-	* **helpers.sass:** This partial contains helper classes which provide
+	* **helpers.sass:** This partial contains helper placeholders which provide
 	helpful, global rules that aren't particular to any one module, page, etc.
 	For example, clearfix, hidden/invisible, etc. Quite useful for @extends!
 
