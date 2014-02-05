@@ -22,7 +22,7 @@
 // 		+btn($size:large, $bg-color:#f90, $hf-bg-color:#c90, $border-radius:15px)
 // ============================================================
 
-@mixin btn($size:small, $bg-color:$blue, $color:$white, $hf-bg-color:$gray-dark, $hf-color:$white, $font-size:0.875em, $border-radius:8px, $speed:0.1s)
+@mixin btn($size:'', $bg-color:$blue, $color:$white, $hf-bg-color:$gray-dark, $hf-color:$white, $font-size:$base-font-size, $border-radius:8px, $speed:0.1s)
 	+border-radius($border-radius)
 	+single-transition(all, $speed, ease-in-out, 0)
 	background-color: $bg-color
@@ -35,10 +35,10 @@
 	text-decoration: none
 	text-transform: uppercase
 	@if $size == small
-		font-size: .94em
+		font-size: ($font-size * 0.75)
 		padding: .75em 2.3em
 	@else if $size == large
-		font-size: 1.31em
+		font-size: ($font-size * 1.25)
 		padding: .65em 2.6em
 
 	&:visited
