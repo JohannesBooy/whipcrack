@@ -1,0 +1,22 @@
+{
+  "name": "Whipcrack",
+  "description": "A Sass-y front-end project starter infused with Compass that builds upon a mixture of a few key components.",
+  "version": "2.1.0",
+  "homepage": "http://github.com/fromtheoutfit/whipcrack",
+  "author": {
+    "name": "The Outfit, Inc.",
+    "email": "hello@fromtheoutfit.com",
+    "url": "http://fromtheoutfit.com/"
+  },
+  "devDependencies": {
+    "gulp": "~3.5.1",
+    "gulp-compass": "~1.1.1",
+    "gulp-concat": "~2.1.7",
+    "gulp-imagemin": "~0.1.5",
+    "gulp-jshint": "~1.3.4",
+    "gulp-livereload": "~0.3.2",
+    "gulp-rename": "~0.2.2",
+    "gulp-uglify": "~0.2.0",
+    "tiny-lr": "~0.0.5"
+  }
+}

@@ -16,6 +16,29 @@ The core tenets of Whipcrack:
 * Easy to update
 * Easy to extend
 
+## Building with Gulp
+
+We use [Gulp](http://gulpjs.com/) to compile sass, contactinate js, and compress images. You'll need to be a little familiar with the command line but don't worry, it's nothing crazy.
+
+### Install
+
+* First you'll need to install [node.js](http://nodejs.org/)
+* Then, on the command line, navigate to your project directory and run `npm install`
+* To take advantage of automatic reloading, you'll need to install the [LiveReload browser plugin](http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-) for your favorite browser.
+
+### Run
+
+Gulp has two very useful commands:
+
+#### `gulp`
+
+This runs gulp development mode, with un-minified CSS and browser refreshing. It will also tell gulp to listen for changed files. To exit this mode hit `ctrl-c`.
+
+#### `gulp preflight`
+
+This command makes the project ready for production by minifying the CSS, and compressing the images. This command runs only once.
+
+
 ## Let's take a tour:
 
 * **/_/:** The underscore directory is the library of resources relied upon by the rest of the project; images, stylesheets, JavaScript, Sass files, etc.
