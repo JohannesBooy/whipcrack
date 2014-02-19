@@ -246,26 +246,27 @@ video {
   vertical-align: middle; }
 
 /* line 42, ../sass/_foundation/base.sass */
-img {
+img,
+video {
   max-width: 100%; }
 
-/* line 52, ../sass/_foundation/base.sass */
+/* line 53, ../sass/_foundation/base.sass */
 fieldset {
   border: 0;
   margin: 0;
   padding: 0; }
 
-/* line 58, ../sass/_foundation/base.sass */
+/* line 59, ../sass/_foundation/base.sass */
 textarea {
   resize: vertical; }
 
-/* line 64, ../sass/_foundation/base.sass */
+/* line 65, ../sass/_foundation/base.sass */
 ol,
 ul,
 dd {
   margin-left: 0;
   padding-left: 32px; }
-  /* line 70, ../sass/_foundation/base.sass */
+  /* line 71, ../sass/_foundation/base.sass */
   ol ol,
   ol ul,
   ul ol,
@@ -274,67 +275,67 @@ dd {
   dd ul {
     margin: 0.5em 0; }
 
-/* line 75, ../sass/_foundation/base.sass */
+/* line 76, ../sass/_foundation/base.sass */
 li {
   margin-bottom: 0.5em; }
 
-/* line 81, ../sass/_foundation/base.sass */
+/* line 82, ../sass/_foundation/base.sass */
 blockquote {
   margin-left: 32px; }
-  /* line 84, ../sass/_foundation/base.sass */
+  /* line 85, ../sass/_foundation/base.sass */
   blockquote p {
     font-style: italic; }
 
-/* line 90, ../sass/_foundation/base.sass */
+/* line 91, ../sass/_foundation/base.sass */
 pre {
   font-family: "Inconsolata", "Monoco", Courier New, monospace;
   font-size: 0.875em; }
-  /* line 94, ../sass/_foundation/base.sass */
+  /* line 95, ../sass/_foundation/base.sass */
   pre code {
     display: block;
     padding: 1em 16px; }
 
-/* line 105, ../sass/_foundation/base.sass */
+/* line 106, ../sass/_foundation/base.sass */
 a {
   color: #049cdb; }
-  /* line 108, ../sass/_foundation/base.sass */
+  /* line 109, ../sass/_foundation/base.sass */
   a:hover, a:focus {
     color: #036690; }
-  /* line 112, ../sass/_foundation/base.sass */
+  /* line 113, ../sass/_foundation/base.sass */
   a:visited {
     color: #049cdb; }
 
-/* line 121, ../sass/_foundation/base.sass */
+/* line 122, ../sass/_foundation/base.sass */
 h1 {
   font-size: 2em;
   margin: 1em 0 0.1em; }
 
-/* line 125, ../sass/_foundation/base.sass */
+/* line 126, ../sass/_foundation/base.sass */
 h2 {
   font-size: 1.625em;
   margin: 1em 0 0.1em; }
 
-/* line 129, ../sass/_foundation/base.sass */
+/* line 130, ../sass/_foundation/base.sass */
 h3 {
   font-size: 0.9375em;
   margin: 1.75em 0 0.2em; }
 
-/* line 133, ../sass/_foundation/base.sass */
+/* line 134, ../sass/_foundation/base.sass */
 h4 {
   font-size: 0.8125em;
   margin: 1.75em 0 0.2em; }
 
-/* line 137, ../sass/_foundation/base.sass */
+/* line 138, ../sass/_foundation/base.sass */
 h5 {
   font-size: 0.8125em;
   margin: 1.75em 0 0.4em; }
 
-/* line 141, ../sass/_foundation/base.sass */
+/* line 142, ../sass/_foundation/base.sass */
 h6 {
   font-size: 0.8125em;
   margin: 1.75em 0 0.4em; }
 
-/* line 148, ../sass/_foundation/base.sass */
+/* line 149, ../sass/_foundation/base.sass */
 .btn {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -364,7 +365,7 @@ h6 {
     background: #404040;
     color: white; }
 
-/* line 151, ../sass/_foundation/base.sass */
+/* line 152, ../sass/_foundation/base.sass */
 .btn-small {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -396,7 +397,7 @@ h6 {
     background: #404040;
     color: white; }
 
-/* line 154, ../sass/_foundation/base.sass */
+/* line 155, ../sass/_foundation/base.sass */
 .btn-large {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -428,13 +429,13 @@ h6 {
     background: #404040;
     color: white; }
 
-/* line 160, ../sass/_foundation/base.sass */
+/* line 161, ../sass/_foundation/base.sass */
 ::-moz-selection {
   background: #b3d4fc;
   color: #222222;
   text-shadow: none; }
 
-/* line 165, ../sass/_foundation/base.sass */
+/* line 166, ../sass/_foundation/base.sass */
 ::selection {
   background: #b3d4fc;
   color: #222222;
